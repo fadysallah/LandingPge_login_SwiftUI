@@ -2,15 +2,14 @@
 //  ContentView.swift
 //  login
 //
-//  Created by Folio on 01/06/2022.
+//  Created by Fadi Salah on 01/09/2022.
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        WelcomeScreenView()
     }
 }
 
@@ -19,3 +18,22 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+struct PrimaryButton: View {
+    var title : String
+    var body: some View {
+        Text(title)
+            .font(.title3)
+            .fontWeight(.semibold)
+            .foregroundColor(.white)
+            .frame(maxWidth: .infinity)
+            .padding()
+            .background(Color("PrimaryColor"))
+            .cornerRadius(50)
+    }
+}
+
+
+
+
+

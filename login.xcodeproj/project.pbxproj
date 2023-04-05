@@ -10,7 +10,8 @@
 		0C1EA3A12846E2C600277275 /* loginApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1EA3A02846E2C600277275 /* loginApp.swift */; };
 		0C1EA3A32846E2C600277275 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1EA3A22846E2C600277275 /* ContentView.swift */; };
 		0C1EA3A52846E2C700277275 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C1EA3A42846E2C700277275 /* Assets.xcassets */; };
-		0C1EA3A82846E2C700277275 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C1EA3A72846E2C700277275 /* Preview Assets.xcassets */; };
+		0C1EA3AF2846EF1000277275 /* WelcomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1EA3AE2846EF1000277275 /* WelcomeScreenView.swift */; };
+		0C1EA3B12847023F00277275 /* SignInScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1EA3B02847023F00277275 /* SignInScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,7 +19,8 @@
 		0C1EA3A02846E2C600277275 /* loginApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginApp.swift; sourceTree = "<group>"; };
 		0C1EA3A22846E2C600277275 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0C1EA3A42846E2C700277275 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0C1EA3A72846E2C700277275 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0C1EA3AE2846EF1000277275 /* WelcomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenView.swift; sourceTree = "<group>"; };
+		0C1EA3B02847023F00277275 /* SignInScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,18 +55,11 @@
 			children = (
 				0C1EA3A02846E2C600277275 /* loginApp.swift */,
 				0C1EA3A22846E2C600277275 /* ContentView.swift */,
+				0C1EA3B02847023F00277275 /* SignInScreenView.swift */,
+				0C1EA3AE2846EF1000277275 /* WelcomeScreenView.swift */,
 				0C1EA3A42846E2C700277275 /* Assets.xcassets */,
-				0C1EA3A62846E2C700277275 /* Preview Content */,
 			);
 			path = login;
-			sourceTree = "<group>";
-		};
-		0C1EA3A62846E2C700277275 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				0C1EA3A72846E2C700277275 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +120,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C1EA3A82846E2C700277275 /* Preview Assets.xcassets in Resources */,
 				0C1EA3A52846E2C700277275 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +131,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C1EA3B12847023F00277275 /* SignInScreenView.swift in Sources */,
+				0C1EA3AF2846EF1000277275 /* WelcomeScreenView.swift in Sources */,
 				0C1EA3A32846E2C600277275 /* ContentView.swift in Sources */,
 				0C1EA3A12846E2C600277275 /* loginApp.swift in Sources */,
 			);
@@ -267,6 +263,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"login/Preview Content\"";
+				DEVELOPMENT_TEAM = QTB5L5VPQ7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -295,6 +292,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"login/Preview Content\"";
+				DEVELOPMENT_TEAM = QTB5L5VPQ7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
